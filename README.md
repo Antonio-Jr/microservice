@@ -7,6 +7,7 @@ This is a sample code to show how we can connect 3 different backends through Ap
 - First Step: Up the Kafka container
 
   - Execute `docker-compose -f kafka/docker-compose.yaml up -d` or `cd kafka && docker-compose up -d`
+  - After Kafka's up, you can see and create new topics accessing the address: http://localhost:9021
 
 - Second Step: Start the backend applications
   - **Open 3 terminals side-by-side** to see the messages transit
