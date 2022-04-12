@@ -12,9 +12,9 @@ This is a sample code to show how we can connect 3 different backends through Ap
 - Second Step: Start the backend applications
   - **Open 3 terminals side-by-side** to see the messages transit
   - Execute the commands:
-    - On the first terminal: `cd front-api && npm start`
-    - On the second terminal: `cd node-api && npm start`
-    - On the third terminal: `cd python-api && python3 main.py`
+    - On the first terminal: ```yaml cd front-api && npm install && npm start
+    - On the second terminal: ```yaml cd node-api && npm install && npm start
+    - On the third terminal: ```yaml cd python-api && python3 main.py
 
 # How to test it?
 
