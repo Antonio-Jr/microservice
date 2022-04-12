@@ -10,6 +10,9 @@ This is a sample code to show how we can connect 3 different backends through Ap
        > cd kafka
        > docker-compose up -d
   - After Kafka's up, you can see and create new topics accessing the address: http://localhost:9021
+  - If you wanna kill the container, inside Kafka's directory execute the command below:
+    ```yaml
+       > docker-compose down
 
 - Second Step: Start the backend applications
   - **Open 3 terminals side-by-side** to see the messages transit
