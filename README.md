@@ -30,6 +30,7 @@ This is a sample code to show how we can connect 3 different backends through Ap
     - On the third terminal: 
         ```yaml 
            > cd python-api
+           > pip install -r requirements.txt
            > python3 main.py
 
 # How to test it?
