@@ -35,7 +35,7 @@ This is a sample code to show how we can connect 3 different backends through Ap
 
 # How to test it?
 
-- When all the backends are started, on Postman, Insomnia or other tool, create a new **POST REQUEST** with the following settings:
+- When all the backends are started, on Postman, Insomnia, or other tools, create a new **POST REQUEST** with the following settings. **IN THIS TEST, POSTMAN WAS USED SO, THE CONFIGS BELOW CAN CHANGE IF YOU USE ANOTHER TOOL**.
   - Request Url: http://localhost:3000/recommendations
   - Body:
     - clientId: It's a fake id of client
